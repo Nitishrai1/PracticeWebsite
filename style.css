@@ -443,3 +443,99 @@ footer {
     }
 }
 
+<!-- Add this CSS to your style.css file -->
+<style>
+.benefits {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.benefits-content {
+  text-align: center;
+}
+
+.benefits-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.benefit-image {
+  max-width: 400px;
+  height: auto;
+}
+
+.benefit-features {
+  text-align: left;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.features-list li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.keto-friendly {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.keto-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.feature h3 {
+  color: #2c5282;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .benefit-item {
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
